@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.menu ul {
+    list-style: none;
+    width: 60vh;
+    flex-direction: column;
+    
+}
+
+li {
+    border: 0.1px groove rgb(102, 102, 102);
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vh;
+    text-align: center;
+}
+
+.hero img {
+    align-items: center;
+    width: 500px;
+}
+
+.profile-photo {
+    height: 60px;
+    border-radius: 50%;
+}
+
+.test {
+    display: flex;
+    align-items: center;
+}
