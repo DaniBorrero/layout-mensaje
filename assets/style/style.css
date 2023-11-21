@@ -15,9 +15,9 @@ body {
     
 }
 
-li {
+/* li {
     border: 0.1px groove rgb(102, 102, 102);
-}
+} */
 
 .hero {
     display: flex;
@@ -36,9 +36,28 @@ li {
 .profile-photo {
     height: 60px;
     border-radius: 50%;
+    margin: 15px;
 }
 
 .test {
     display: flex;
     align-items: center;
+}
+.icon {
+    font-size: 5em;
+    color: black;
+}
+.new-chat {
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    height: 60px;
+    width: 200px;
+    color: white;
+    background-color: #B2A1D9;
+    border: none;
+    font-size: large;
 }
