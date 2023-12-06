@@ -8,6 +8,7 @@ body {
     width: 30vw;
     height: 100vh;
     border: 1px solid #333;
+    overflow-y: auto;
 }
 
 .user-active {
@@ -23,7 +24,7 @@ body {
     width: 40%;
 }
 
-.avatar-user > img {
+.profile-avatar {
     border-radius: 50%;
     height: 13vh;
 }
@@ -53,6 +54,28 @@ button:hover {
     background-color: #7e59d3;
     color: black;
 }
+
+.chat-user {
+    border-bottom: 1px solid #333;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 1vw;
+    background-position:left bottom;
+}
+
+.chat-user:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+.chat-status {
+    padding-left: 5vh;
+}
+
+.chat-status > p {
+    line-height: 1px;
+}
 .section {
     width: 70vw;
     height: 100vh;
@@ -66,3 +89,4 @@ button:hover {
     height: 400px;
     width: 400px;
 }
+
